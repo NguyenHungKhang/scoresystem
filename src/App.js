@@ -23,6 +23,7 @@ function App() {
           <Route path="/search-score" element={<SearchScore />} />
           <Route path="/top-ten-a-group" element={<TopTenGroupA />} />
           <Route path="/statistics" element={<Statistics />} />
+          <Route path="*" element={<Navigate to="/search-score" />} />
         </Routes>
       </Box>
     </Router>
