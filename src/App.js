@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import SearchScore from './pages/SearchScore';
 import TopTenGroupA from './pages/TopTenGroupA';
 import Statistics from './pages/Statistics';
